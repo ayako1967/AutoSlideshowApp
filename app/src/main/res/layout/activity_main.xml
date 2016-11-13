@@ -10,8 +10,27 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="jp.techacademy.takuya.okitsu.autoslideshowapp.MainActivity">
 
-    <TextView
+    <Button
+        android:text="戻る"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="135dp"
+        android:id="@+id/button" />
+
+    <Button
+        android:text="進む"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/button"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/button2" />
+
+    <Button
+        android:text="再生・停止"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/button3" />
 </RelativeLayout>
